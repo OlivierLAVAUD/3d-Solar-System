@@ -4,12 +4,12 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg?style=flat-square&logo=javascript)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 
-Une simulation immersive et éducative de notre système solaire en 3D, développée avec Three.js. Explorez les planètes, leurs lunes et découvrez des informations fascinantes sur chaque corps céleste !
+Une simulation immersive et éducatived e notre système solaire en mouvement et en 3D, développée avec Three.js. Explorez les planètes, leurs lunes et découvrez des informations fascinantes sur chaque corps céleste !
 
 !["Système Solaire 3D"](/img/image1.png)
 !["Le système solaire"](/img/image3.png)
 
-*Vue d'ensemble du système solaire*
+*Vue d'ensemble et en mouvement du système solaire*
 
 ## ✨ Fonctionnalités
 
@@ -99,12 +99,12 @@ json
 ## 🎮 Contrôles
 
  -   Action	Effet
- -   Clic gauche + glisser	Rotation autour de la scène
- -   Molette de souris	Zoom avant/arrière
- -   Clic droit + glisser	Déplacement de la caméra
- -   Clic sur une planète	Afficher les informations détaillées
- -   Slider Vitesse	Contrôle la vitesse des orbites
- -   Slider Taille	Ajuste l'échelle des planètes
+ -   Clic gauche + glisser: 	Rotation autour de la scène
+ -   Molette de souris:     	Zoom avant/arrière
+ -   Clic droit + glisser:  	Déplacement de la caméra
+ -   Clic sur une planète:  	Afficher les informations détaillées
+ -   Slider Vitesse:        	Contrôle la vitesse des orbites
+ -   Slider Taille:         	Ajuste l'échelle des planètes
 
 
 
