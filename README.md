@@ -232,3 +232,5 @@ Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 
 ## ✨ Explorez l'infini depuis votre navigateur ! ✨
 Si vous aimez ce projet, n'hésitez pas à lui donner une ⭐ sur GitHub !
+
+Note: Il y a un oeuf de pâques (Easter egg) dans ce code !
