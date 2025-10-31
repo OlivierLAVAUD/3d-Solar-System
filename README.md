@@ -55,6 +55,17 @@ olivierlavaud-3d-solar-system/
 
 
 ## 🛠️ Installation & Utilisation
+
+Clonez le repo git et accedez au repertoire
+
+```bash
+git clone https://github.com/OlivierLAVAUD/3d-Solar-System.git
+
+cd 3d-Solar-System.
+```
+puis, ...
+
+
 ### Méthode 1 : Serveur HTTP Simple (Recommandé pour débuter)
 ```bash
 
