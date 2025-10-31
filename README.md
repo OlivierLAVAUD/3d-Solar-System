@@ -7,7 +7,7 @@
 Une simulation immersive et éducative de notre système solaire en 3D, développée avec Three.js. Explorez les planètes, leurs lunes et découvrez des informations fascinantes sur chaque corps céleste !
 
 !["Système Solaire 3D"](/img/image1.png)
-!["Le système solaire"](/img/image1.png)
+!["Le système solaire"](/img/image3.png)
 
 *Vue d'ensemble du système solaire*
 
