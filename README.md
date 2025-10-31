@@ -24,7 +24,7 @@ Une simulation immersive et éducative de notre système solaire en 3D, dévelop
 
 ## 🚀 Démo en Ligne
 
-[![Démo Live](https://img.shields.io/badge/Démo_Live-Visiter_le_système_solaire-4fc3f7?style=for-the-badge)](https://votre-nom-utilisateur.github.io/olivierlavaud-3d-solar-system/)
+# [![Démo Live](https://img.shields.io/badge/Démo_Live-Visiter_le_système_solaire?style=for-the-badge)](https://OlivierLAVAUD.github.io/3d-solar-system/)
 
 *✨ Explorez le système solaire depuis votre navigateur !*
 
