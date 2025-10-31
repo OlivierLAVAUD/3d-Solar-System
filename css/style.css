@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+    outline: none;
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(100, 150, 255, 0.3);
+    max-width: 600px;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+#ui h1 {
+    color: #4fc3f7;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+#planetInfo {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.highlight {
+    color: #ffcc80;
+    font-weight: bold;
+}
+
+.controls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(100, 150, 255, 0.3);
+    z-index: 100;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.control-group label {
+    font-size: 14px;
+    color: #4fc3f7;
+    min-width: 80px;
+}
+
+.control-group input {
+    width: 120px;
+}
+
+.value-display {
+    min-width: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffcc80;
+}
+
+#instructions {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #aaa;
+    font-style: italic;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4fc3f7;
+    font-size: 18px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.spinner {
+    border: 4px solid rgba(79, 195, 247, 0.3);
+    border-radius: 50%;
+    border-top: 4px solid #4fc3f7;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 15px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+    #ui {
+        max-width: 90%;
+        left: 5%;
+        top: 10px;
+        padding: 15px;
+    }
+    
+    .controls {
+        flex-direction: column;
+        gap: 15px;
+        bottom: 10px;
+    }
+    
+    #instructions {
+        bottom: 120px;
+        font-size: 12px;
+    }
+}
