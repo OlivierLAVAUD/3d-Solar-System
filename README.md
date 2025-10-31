@@ -6,6 +6,7 @@ Le systeme solaire en 3 dimensions
 
 # Structure
 
+```bash
 Solar-system-3D/
 ├── index.html
 ├── css/
@@ -26,7 +27,7 @@ Solar-system-3D/
 │   └── utils/
 │       └── Helpers.js
 
-
+```
 
 # Installation & Utilisation
 
