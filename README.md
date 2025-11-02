@@ -70,7 +70,7 @@ puis, ...
 ```bash
 
 # Avec Python 3
-python -m http.server 8000
+python3 -m http.server 8000
 
 # Avec Python 2
 python -m SimpleHTTPServer 8000
